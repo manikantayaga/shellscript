@@ -1,7 +1,9 @@
 #!/bin/bash
-echo "helloworld"
-echo "wellcome to Devops World"
-n1=$1
-n2=$2
-sum=$(n1+n2)
-echo "the output is"$sum
+echo "enter user name"
+read -s username  
+echo "user name enter is:$username"
+echo "enter password"
+read -s password
+echo "password enter is:$password"
+
+
